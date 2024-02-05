@@ -33,36 +33,53 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .descricao {
     width: 169px;
 }
 
+.descricao__img {
+    margin: 0.5em 0;
+}
+
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
-    margin: 0 0 10px 0;
 }
 
 .descricao__titulo-livro {
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
-    margin: 0 0 10px 0;
+    margin: 0.6em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .card__botoes {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
 }
 
 .botoes {
-    display: flex;
+    display: flex;    
+}
+
+.botoes__item {
+    margin: 0 0.5em;
 }
 
 .botoes__ancora {
     background-color: var(--laranja);
     color: var(--branco);
-    padding: 1em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em 2.2em;
 }
