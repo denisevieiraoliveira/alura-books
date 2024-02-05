@@ -2,7 +2,26 @@ hr {
     margin: 0;
 }
 
-.rodape{
+.rodape {
     background: var(--branco);
     padding: 1em;
+}
+
+.rodape__educacao {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .rodape__conteudo {
+        display: block;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lista__item {
+        display: flex;
+    }
 }
