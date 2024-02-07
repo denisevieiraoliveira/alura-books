@@ -35,8 +35,8 @@
     }
 
     .topicos__link {
-        font-size: 1.5em;
-        padding: 1em 1.5em;
+        font-size: 1em;
+        padding: 0.5em 2em;
     }
 
     .topicos__item{
@@ -46,6 +46,15 @@
 
 @media screen and (min-width:1728px) {
     .topicos {
-        padding: 3em 25vw;
-    }     
+        padding: 1em 10vw;
+    }   
+    
+    .topicos__link {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .topicos__titulo {
+        margin: 0.5em 0;
+    }
 }
